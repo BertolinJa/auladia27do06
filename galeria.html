@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .container-fluid{
+            background-color: aquamarine;
+        }
+          
+        .row{
+            border: 1px solid black;
+        }
+        .border-col{
+            border: 1px solid rgb(217, 255, 0);
+        }
+        .rowbt{
+            display: grid;
+            gap: 10px 10px;
+        }
+        .container lala{
+            display: grid;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <main class="container-fluid"> 
+        <header>
+            <h1>exemplo</h1>
+
+        </header>
+        <div class="row">
+            <div class="col-xs-12 border-col">
+                coluna unica
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 border-col">
+                coluna
+            </div>
+            <div class="col-5 border-col">
+                Coluna 2
+            </div>
+            <div class="col-5 border-col">
+                coluna 3
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-2 border-col">
+                coluna 1
+            </div>
+            <div class=" col-2 border-col">
+                coluna 2
+            </div>
+            <div class=" col-2 border-col">
+                coluna 3
+            </div>
+            <div class=" col-2 border-col">
+                coluna 4
+            </div>
+            <div class=" col-2 border-col">
+                coluna 5
+            </div>
+            <div class=" col-2 border-col">
+                coluna 6
+            </div>
+           
+            </div>
+        </div>
+        <div class="rowbt">
+            <div class="col border-col">triste</div>
+            <div class="col border-col">triste</div>
+            <div class="col border-col">triste</div>
+            <div class="col border-col">triste</div>
+            
+        </div> 
+        
+    </main>
+    <main class="container lala">
+        <div class="col-md-6 border-col">
+            lalal
+        </div>
+    </main>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
